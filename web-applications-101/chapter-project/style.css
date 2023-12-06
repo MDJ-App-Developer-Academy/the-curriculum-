@@ -1,0 +1,78 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* General Styles */
+
+
+body {
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7f2f8;
+    color: #333;
+}
+
+header, footer {
+    background-color: #005f73;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+main > section {
+    justify-content: space-evenly;
+    height: 20vmax;
+    font-size: 2.2vmin;
+    flex-grow: 1;
+}
+
+/* Header Styles */
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section Styles */
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+section h2 {
+    color: #005f73;
+    font-size: 1.8em;
+}
+
+/* Footer Styles */
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Helper Classes */
+
+.flexbox-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox-content-center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
