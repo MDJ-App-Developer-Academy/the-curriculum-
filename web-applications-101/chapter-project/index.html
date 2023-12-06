@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Weatherfy</title>
 </head>
 <body class="flexbox-column">
@@ -13,11 +14,15 @@
     <main class="flexbox-content-center-row">
         <section class="flexbox-column">
             <h2>Current Weather Conditions</h2>
-            <p>It is currently 75 degrees and sunny in San Diego, CA.</p>
+            <p id="weather-report">It is currently 75 degrees and sunny in San Diego, CA.</p>
+            <div id="user-input">
+                <input type="text">
+                <button>Get Weather</button>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Copyright &copy; All Rights Reserved Weatherfy <span id="year">2023</span></p>
+        <p>Copyright &copy; All Rights Reserved Weatherfy <span id="year"></span></p>
     </footer>
 </body>
 </html>
