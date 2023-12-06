@@ -1,18 +1,13 @@
 /* Global Styles */
-
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
 /* General Styles */
-
-
 body {
     min-height: 100vh;
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #e7f2f8;
     color: #333;
 }
@@ -30,16 +25,8 @@ main {
     flex-grow: 1;
 }
 
-main > section {
-    justify-content: space-evenly;
-    height: 20vmax;
-    font-size: 2.2vmin;
-    flex-grow: 1;
-}
-
 /* Header Styles */
 header h1 {
-    margin: 0;
     font-size: 2.5em;
 }
 
@@ -60,12 +47,10 @@ section h2 {
 
 /* Footer Styles */
 footer p {
-    margin: 0;
     font-size: 1em;
 }
 
 /* Helper Classes */
-
 .flexbox-column {
     display: flex;
     flex-direction: column;
@@ -75,4 +60,57 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Input and Button Container Styles */
+#user-input {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0096c7;
+}
+
+/* Weather Report Styles */
+#weather-report {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    main > section {
+        width: 85%;
+        font-size: 3vmin;
+    }
+
+    .input-button-container {
+        flex-direction: column;
+    }
+
+    input[type="text"], button {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
