@@ -6,7 +6,7 @@ A project-based approach to becoming a software engineer.
 ### Web Applications 101
 
 *Review and Reverse Engineering the Chapter Project*
-- *1.0:* Review a simple web application that consumes API data and visualizes it to a UI.
+- *1.0:* Review the Chapter Web Application.
 - *1.1:* How to set up a simple developer environment.
 - *1.2:* Introduction to CSS and HTML.
 - *1.3:* Understanding how programming languages store and reference data using variables.
