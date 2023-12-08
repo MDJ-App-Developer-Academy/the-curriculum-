@@ -1,12 +1,6 @@
-# The Curriculum
-A project-based approach to becoming a software engineer.
+# Web Applications 101
 
-## Outline
-
-### Web Applications 101
-
-*Review and Reverse Engineering the Chapter Project*
-- *1.0:* Review the Chapter Web Application.
+- *1.0:* Review the Chapter Web Application
 - *1.1:* How to set up a simple developer environment.
 - *1.2:* Introduction to CSS and HTML.
 - *1.3:* Understanding how programming languages store and reference data using variables.
@@ -17,14 +11,3 @@ A project-based approach to becoming a software engineer.
 - *1.9:* Introduction to APIs that offer data as a service
 - *1.10:* Understanding how JavaScript handles complex tasks with the Promise Object
 - *1.10:* Integrating an API into a simple web application
-
-
-### Test Driven Development
-
-### Interactive UIs
-
-### APIs
-
-### Systems Design and Infrastructure
-
-### The Freelance Web Developer
