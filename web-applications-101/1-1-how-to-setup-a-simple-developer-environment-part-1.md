@@ -22,6 +22,8 @@ In this module, students will learn the basics of setting up a simple developer 
 - Setting up a Basic Project File Structure
 - Customize your text editor with themes
 - Preview your application in the browser with LiveServer
+- Conclusion
+- Resources
 
 ## Introduction to Text Editors and VS Code
 
