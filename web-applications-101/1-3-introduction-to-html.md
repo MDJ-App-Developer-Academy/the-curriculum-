@@ -131,27 +131,27 @@ Here's what our code should look like next  _(see dialogue below for explanation
 **Creating Headers and Main Content Area:** 
   We used the `<header>` tag to define the introductory content, typically housing the `<h1>` tag for our main title. In this case we added an `<h1>` tag with the application's title.
   
-  The `<main>` element then holds the core content of our page, structured using `<section>` tags. This organization helps in understanding the layout of our webpage.
+  The `<main>` element then holds the core content of our page, structured using a single`<section>` tag; inside of this tag we have a level 2 heading or `<h2>` tag, where we can help the user understand where to see current weather data. There is also a `<p>` tag right below this `<h2>` tag that indicates the current weather conditions w/text. In summary, just like the `<h1` element, the `<h2>` and `<p>` elements are used for text; however, heading elements like `<h1>` or `<h2>` tags are used specifically for section headings and they use numbers to indicate their level of importance. Right now, we'll use static text for the content for this section, but eventually we'll replace it with dynamic content we'll generate with JavaScript. 
 
 **User Input and Buttons:** 
-  "For user interaction, we'll introduce form elements like `<input>`, where users can type in data, and `<button>` elements to submit or trigger actions. These are crucial for interactive applications like Weatherfy."
+  For user interaction, we'll introduce form elements like `<input>`, where users can type in data, and `<button>` elements to submit or trigger actions. These are crucial for interactive applications.
 
 ### Styling with CSS
-"Now, let's talk about CSS. The `style.css` file linked in our HTML determines the look and feel of our elements. CSS allows us to add colors, adjust layouts, and much more, making our website visually appealing."
+Now, let's talk about CSS. The `style.css` file linked in our HTML determines the look and feel of our elements. CSS allows us to add colors, adjust layouts, and much more, making our website visually appealing.
 
 ### Adding Interactivity with JavaScript
-"JavaScript brings our website to life. The `script.js` file linked at the end of our HTML adds functionality. For Weatherfy, it's responsible for fetching weather data and updating our webpage. It's the magic that makes our site interactive."
+JavaScript brings our website to life. The `script.js` file linked at the end of our HTML adds functionality. For Weatherfy, it's responsible for fetching weather data and updating our webpage. It's the magic that makes our site interactive.
 
 ### Applying Version Control with Git
 
 **Git Basics:** 
-  "Let's revisit Git. Remember the basic commands like `git add`, `git commit`, and `git push`? These are our tools for tracking changes and maintaining different versions of our project."
+Let's revisit Git. Remember the basic commands like `git add`, `git commit`, and `git push`? These are our tools for tracking changes and maintaining different versions of our project.
   
 **Version Control in Practice:** 
-  "As you modify your HTML document, consistently commit your changes. This practice is essential for managing project versions and collaborating with others. We'll use Git to track our progress and GitHub to store our project remotely."
+As you modify your HTML document, consistently commit your changes. This practice is essential for managing project versions and collaborating with others. We'll use Git to track our progress and GitHub to store our project remotely.
 
 ## Conclusion
-"We've traveled from a basic HTML document to a more structured and complex one. It's crucial to understand HTML structure, the role of CSS and JavaScript, and how version control with Git and GitHub integrates into our web development workflow."
+We've traveled from a basic HTML document to a more structured and complex one. It's crucial to understand HTML structure, the role of CSS and JavaScript, and how version control with Git and GitHub integrates into our web development workflow.
 
 ## Resources
 - [Comprehensive Guide to HTML Elements and Attributes](https://www.w3schools.com/html/)
