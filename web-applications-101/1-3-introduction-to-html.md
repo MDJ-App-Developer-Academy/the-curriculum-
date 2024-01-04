@@ -148,7 +148,23 @@ JavaScript brings our website to life. The `script.js` file linked at the end of
 Let's revisit Git. Remember the basic commands like `git add`, `git commit`, and `git push`? These are our tools for tracking changes and maintaining different versions of our project.
   
 **Version Control in Practice:** 
-As you modify your HTML document, consistently commit your changes. This practice is essential for managing project versions and collaborating with others. We'll use Git to track our progress and GitHub to store our project remotely.
+As you modify your HTML document, consistently commit your changes. This practice is essential for managing project versions and collaborating with others. 
+
+Let's see how we can use Git to track our progress and GitHub to store our project remotely.
+
+At this point, we've already made some changes to the source code for our weatherfy project; the next step involves using git commands from the command line to stage, commit, and the push our code to GitHub.
+
+**Step 1:** Open your terminal application and navigate to the root of your project directory.
+**Step 2:** Use the `git init` command to initialize an empty `git` repository inside your project directory.
+**Step 3:** Use the `git add -A` command to stage all new and modified files inside the project directory to the new repository.
+**Step 4:** Use the `git commit` command with commit message as follows: `git commit -m "wip: adds current changes to project"`; this way we can take the changes we stages and write them as history in our new repository.
+**Step 5:** All we need to do now is create a repository in GitHub and add a remote reference to our repo as follows:
+
+<!-- TODO: finish this section -->
+```shell
+
+```
+
 
 ## Conclusion
 We've traveled from a basic HTML document to a more structured and complex one. It's crucial to understand HTML structure, the role of CSS and JavaScript, and how version control with Git and GitHub integrates into our web development workflow.
